@@ -8,6 +8,7 @@ class AustriasNextTaxiDriverWebsiteApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// This test is left empty, because it is not implemented yet.
 	}
 
 }
