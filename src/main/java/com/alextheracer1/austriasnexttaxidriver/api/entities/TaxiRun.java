@@ -1,7 +1,5 @@
 package com.alextheracer1.austriasnexttaxidriver.api.entities;
 
-import java.math.BigInteger;
-import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -12,8 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "TaxiRun")
 public class TaxiRun {
 
-  @Id
-  private int runId;
+  @Id private int runId;
 
   private Driver driver;
 
@@ -27,6 +24,4 @@ public class TaxiRun {
   private boolean madeItInBothDirections;
   private String weatherCondition;
   private String daylightCondition;
-
-
 }
