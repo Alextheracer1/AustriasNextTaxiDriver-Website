@@ -12,4 +12,6 @@ public interface TaxiRunDatabase extends MongoRepository<TaxiRun, Integer> {
   boolean existsByRunId(int runId);
 
   List<TaxiRun> findAll();
+
+
 }

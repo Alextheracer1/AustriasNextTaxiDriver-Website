@@ -23,5 +23,5 @@ public class TaxiRun {
   private boolean madeItBack;
   private boolean madeItInBothDirections;
   private String weatherCondition;
-  private String daylightCondition;
+  private String timeOfDay;
 }

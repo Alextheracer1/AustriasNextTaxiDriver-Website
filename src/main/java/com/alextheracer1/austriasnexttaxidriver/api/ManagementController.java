@@ -36,4 +36,9 @@ public class ManagementController {
   public List<TaxiRun> readTest() {
     return taxiRunDatabase.findAll();
   }
+
+  @GetMapping("/getAllTaxiRunsCount")
+  public int GetTaxiRunCount() {
+    return taxiRunDatabase.findAll().size();
+  }
 }
